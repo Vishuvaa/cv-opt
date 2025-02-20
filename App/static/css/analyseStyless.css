@@ -1,0 +1,227 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(235, 231, 231);
+}
+
+#analysisContainer {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif, "Inter";
+  display: block;
+  width: 500px;
+  margin-bottom: 10px;
+  height: 350px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  overflow-y: scroll;
+  resize: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+#canvas {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(49, 49, 50);
+  padding: 20px;
+}
+
+#skillGapContainer {
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+  text-align: center;
+  width: 1000px;
+  margin-left: 0;
+  color: white;
+  padding-right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+#questionContainer {
+  background-color: rgb(219, 219, 218);
+  width: 100%;
+  margin-right: 0;
+  padding-bottom: 10px;
+}
+
+#report {
+  overflow-y: scroll;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  height: 430px;
+}
+
+#chatArea {
+  height: 400px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}
+
+#chatInput {
+  width: 85%;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+}
+
+#chatAreaBottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  height: 30px;
+  margin-left: 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(49, 49, 50);
+  color: white;
+  font-weight: bold;
+}
+
+#generateButton {
+  width: 100%;
+  height: 30px;
+  margin-left: 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(49, 49, 50);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chat-answer {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  padding: 3px;
+  padding-right: 5px;
+  background-color: rgb(49, 49, 50);
+  color: white;
+  border-radius: 5px;
+  max-width: 60%;
+  min-width: 10%;
+  word-wrap: break-word;
+  margin-left: auto;
+  width: auto;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.bot-answer {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(37, 36, 36);
+  border-radius: 5px;
+  max-width: 60%;
+  min-width: 10%;
+  width: auto;
+  word-wrap: break-word;
+  margin-right: auto;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Name Styling */
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Contact Info */
+.contact-info {
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #0056b3;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  color: #444;
+}
+
+/* Work Experience */
+ul li strong {
+  color: #333;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Skills */
+.skills {
+  font-size: 12px;
+  font-weight: normal;
+  color: #333;
+  margin-top: 15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Analyser</title>
+    <link rel="stylesheet" href="/static/css/analyseStyless.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="canvas">
+      <div id="skillGapContainer">
+        <h3>Skill gap analysis</h3>
+        <div id="report"></div>
+      </div>
+      <div id="questionContainer" class="container">
+        <h3 class="heading">Jack the Assistant</h3>
+        <div id="chatArea"></div>
+        <div id="chatAreaBottom">
+          <input
+            type="text"
+            placeholder="Would you like to join a short question answer session to optimize your CV better?"
+            id="chatInput"
+          />
+          <button id="submitButton" class="button">Submit</button>
+          <button id="recordButton" class="button">
+            <i id="icon" class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="/static/js/analyse.js"></script>
+  </body>
+</html>

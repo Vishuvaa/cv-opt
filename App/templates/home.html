@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interview Question Generator</title>
+    <link rel="stylesheet" href="/static/css/stylesCV.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Jack the CV Optimizer 🤹</h3>
+      <form id="questionForm">
+        <textarea
+          class="inputArea"
+          id="jd"
+          placeholder="Enter Job Description (JD)"
+          required
+        ></textarea>
+        <div id="cvInput">
+          CV
+          <input type="file" id="cv" accept=".txt,.pdf,.docx" required />
+        </div>
+        <button id="submit" type="submit">Analyze ✨</button>
+      </form>
+    </div>
+    <script src="/static/js/scriptCV.js"></script>
+  </body>
+</html>
